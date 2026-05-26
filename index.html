@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дмитрий портфолио</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="container navbar">
+            <h1 class="logo">Дмитрий Портфолио</h1>
+            <ul class="nav-menu">
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#projects">Проекты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <p class="hero-subtitle">Привет, меня зовут</p>
+                    <h2 class="hero-title">Дмитрий Антофьев</h2>
+                    <p class="hero-role">Frontend & Backend Developer</p>
+                    <p class="hero-description">
+                        Мне 19 лет. Я занимаюсь разработкой современных веб-приложений,
+                        изучаю программирование и постоянно совершенствую свои навыки.
+                        Создаю удобные, быстрые и красивые цифровые продукты.
+                    </p>
+                </div>
+
+                <div class="stats-card">
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">6+</div>
+                            <div class="stat-label">Навыков</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">6</div>
+                            <div class="stat-label">Проектов</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section dark-section">
+            <div class="container">
+                <h3 class="section-title">Обо мне</h3>
+                <div class="about-card">
+                    <p>
+                        Я начинающий разработчик, специализирующийся на создании
+                        современных веб-приложений. Увлекаюсь программированием,
+                        изучаю новые технологии и стремлюсь создавать качественные
+                        цифровые решения. Для меня важны чистый код, удобный интерфейс
+                        и высокая производительность.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h3 class="section-title">Навыки</h3>
+                <div class="skills-grid" id="skillsContainer"></div>
+            </div>
+        </section>
+
+        <section id="projects" class="section dark-section">
+            <div class="container">
+                <h3 class="section-title">Мои проекты</h3>
+                <div class="projects-grid" id="projectsContainer"></div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h3 class="section-title">Связаться со мной</h3>
+
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Ваше имя" required>
+                    <input type="email" placeholder="Ваш Email" required>
+                    <textarea placeholder="Ваше сообщение" rows="6" required></textarea>
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+    GitHub: https://github.com/dimzant-bot <br>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
