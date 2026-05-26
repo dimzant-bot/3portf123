@@ -321,7 +321,7 @@ body {
     height: 100%;
     object-fit: cover;
     opacity: 1;
-    filter: blur(2px);
+
     z-index: 1;
 }
 
